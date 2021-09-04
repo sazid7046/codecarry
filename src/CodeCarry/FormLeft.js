@@ -26,7 +26,7 @@ const useStyle = makeStyles(theme => ({
         },
       },
 }))
-function FormRight() {
+function FormLeft() {
     const classes = useStyle();
     const [user, setUser] = React.useState({
         description: ''
@@ -68,4 +68,4 @@ function FormRight() {
     )
 }
 
-export default FormRight
+export default FormLeft

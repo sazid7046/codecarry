@@ -1,5 +1,5 @@
 import React from 'react';
-import FormRight from './FormRight';
+import FormLeft from './FormLeft';
 import TableRight from './TableRight';
 import { Grid, makeStyles } from '@material-ui/core';
 import { Button } from '@material-ui/core';
@@ -48,13 +48,13 @@ function Home() {
  <div>
             <Grid container justify='space-evenly'>
                 <Grid item sm={5} xs={12}>
-                    <FormRight/>
+                    <FormLeft/>
                 </Grid>
                 <Grid item sm={5} xs={12} style={{marginTop: '1.35rem'}}>
                     <TableRight/> 
                 </Grid>
             </Grid>
-            <div style={{marginTop: '2rem'}}>
+            <div style={{margin: '2rem 0'}}>
                 <Buttons/>
             </div>
         </div>
