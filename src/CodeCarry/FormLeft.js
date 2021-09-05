@@ -9,6 +9,11 @@ const useStyle = makeStyles(theme => ({
     span:{
         color: '#00A0A6'
     },
+    formGroup:{
+        [theme.breakpoints.down('sm')]:{
+            marginTop: '7rem'
+        }
+    },
     formControl:{
     width: "100%",
     fontSize:" 1rem",
